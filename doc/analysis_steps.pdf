@@ -1,0 +1,49 @@
+1. Overview
+This document goes over the steps needed to reproduce the results using the raw participants data.
+Due to the experiment involving human subjects who completed tasks manually, all 
+calculations were performed manually. No scripts or pipelines were required.
+
+2. Data Preparation
+2.1
+The raw data file (data/raw_data.csv) contains several columns identifying the type of student the subject was
+the rest recorded the programs answers and times.
+
+2.2 Data Cleaning
+The following steps were performed:
+    I. Removed all rows that didn't involve the subjects answer or times they took
+    II. Confirm that no participants data is missing
+    III. Remove all participants whose answers don't reach an evaluated score of 7 or higher
+    IV. Convert time values to numerical seconds
+    V. Save cleaned data to data/cleaned_data.csv
+
+3. Descriptive Statistics
+3.1 Mean Completion Time:
+    Program 1 mean: 49.6 seconds
+    Program 2 mean: 60.1 seconds
+
+4. Paired Sample t-Test:
+4.1 Compute Difference Scores
+    difference = program 1 time - program 2 time
+
+4.2 Calculate Average Mean Differnce
+
+4.3 Calcualte Standard Deviation of Difference
+
+4.4 Calculate Standard Error:
+    SE = Standard Deviation / sqrt(number of participants)
+
+4.5 Compute the t-Statistic:
+    t = Mean Difference / Standard Error
+
+4.6 Find Degrees of Freedom:
+    df = number of participants - 1
+
+4.7 Calculate p-value:
+    p = 2 X (1 - T(|t|, df))
+
+5 Verification:
+    Confirming that the means, t-value, and p-value match:
+        - Program 1 mean: 49.6
+        - Program 2 mean: 60.1
+        - t(17) = -0.414
+        - p = 0.68

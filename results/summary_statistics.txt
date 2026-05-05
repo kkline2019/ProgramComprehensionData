@@ -1,0 +1,22 @@
+Number of participants: 18
+Degree of Freedom: 17
+
+Program 1 in seconds:
+- Mean: 49.6
+- Minimum: 14
+- Maximum: 124
+
+Program 2 in seconds:
+- Mean: 60.1
+- Minimum: 24
+- Maximum: 185
+
+
+Paired two-sample t-test:
+- t(28) = -0.414
+- p = 0.68
+
+
+Conclusion:
+Analysis indicates that due to the the statistically insignificant difference between Program 1 and 2
+variable naming changes between these programs did not produce a significant difference in the program comprehension of participating students.

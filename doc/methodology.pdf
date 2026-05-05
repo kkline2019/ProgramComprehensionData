@@ -1,0 +1,71 @@
+1. Overview
+This experiment studied the effects variable names had on a programmer's ability to comprehend programs.
+Participants completed two programs, one with standard names and one with unrelated names. 
+For each program the completion time was recorded. 
+
+2. participants
+    - Number of participants: 18
+    - Recruitment: Volunteers recruited from the Rochester Institute of Technology's (RITs)
+    - Requirements: Volunteers must be RIT students and must have at minimum basic experience programming.
+    - Ethics: All data is anonmyous. No data that can uniquely identify the subjects were collected.
+
+3. Materials
+Two short programs were created for the experiment:
+    - Program 1: A standard program with variable and function names most consider normal
+    - Program 2: A program with variable and functions names that were unrelated to their purpose
+Both programs were of similar length abd complexity. The subjects never viewed either program before 
+starting this experiment.
+
+A survey for subjects to take. Must include:
+    - Questions on the quality of the users. Including academic year, current major, and what degree they pursue.
+    - A prompt for the user to start a timer.
+    - An analysis question asking the subjects what the programs purpose is
+    - A question asking the user how long it took to determine the programs purpose.
+
+4. Procedure
+    I. Subjects are given a survey that they can complete at their own time
+    II. Each subject receives both program 1 and 2 in this order
+    III. For each program:
+        - The subject starts a time keeping device
+        - The subject reviews the program
+        - The subject answered a comprehension question
+        - The subject records the time taken to complete the task in seconds
+
+5. Data Collection
+For each subject the following data was collected:
+    - Completion time for program 1
+    - Answer to the program 1 comprehension question
+    - Completion time for program 2
+    - Answer to the program 2 comprehension question
+No information is to be collected that can uniquely identify subjects
+
+6. Data Processing
+    - Answers were checked and would receive a rating from 1 to 10.
+    - Any participants who's answers scored below a 7 were removed from the data
+    - Completion times were used directly without transformation
+
+7. Statistical Analysis
+A paired samples t-test method was used to compare completion times between Programs 1 and 2.
+
+Analysis steps:
+    I. Compute mean completion time for each program.
+    II. Calculate standard deviation for program 1 and 2
+    III. Apply paired-samples t-test formula
+    IV. Report t-value, degrees of freedom, p-value
+
+8. Reproducibility
+    I. Open data/raw_data.csv
+    II. Compute means of Program 1 and 2
+    III. Run paired t-test
+    IV. Compare results with results/summary_statistics
+
+9. Limitations
+- Small sample size
+- Programs subjects reviewed may have been too simple and cannot be generalized
+    to large more complex programs
+
+10. Contact
+For any questions, contact:
+Kyle Kline 
+kjk7135@rit.edu
+Rochester Institute of Technology
