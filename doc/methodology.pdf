@@ -48,14 +48,15 @@ No information is to be collected that can uniquely identify subjects
 A paired samples t-test method was used to compare completion times between Programs 1 and 2.
 
 Analysis steps:
-    I. Compute mean completion time for each program.
-    II. Calculate standard deviation for program 1 and 2
+    I. Compute difference score between the programs times
+    II. Calculate standard deviation and standard error using the difference score mean
     III. Apply paired-samples t-test formula
     IV. Report t-value, degrees of freedom, p-value
 
 8. Reproducibility
     I. Open data/raw_data.csv
-    II. Compute means of Program 1 and 2
+    II. Compute difference score between the programs times
+    III. Calculate standard deviation and standard error using the difference score mean
     III. Run paired t-test
     IV. Compare results with results/summary_statistics
 
